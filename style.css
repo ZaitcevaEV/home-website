@@ -37,6 +37,12 @@ img {
     margin-bottom: 44px;
 }
 
+.navigation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
 .navigation a {
     font-family: Gilroy-SemiBold;
     font-size: 14px;
@@ -52,16 +58,23 @@ img {
     margin-bottom: 163px;
 }
 
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+}
+
 .mainContent___leftSide h1 {
     font-family: Gilroy-Bold;
     font-size: 60px;
     line-height: 70.31px;
+    margin: 17px 0;
 }
 
 .mainContent___leftSide p {
     font-family: Gilroy-Medium;
     font-size: 20px;
     line-height: 23.44px;
+    margin: 37px 0;
 }
 
 .mainContent__leftSide-btnList button {
@@ -86,4 +99,9 @@ color: #AAAAAA;
 
 .footer {
     padding: 97px 0;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
 }
